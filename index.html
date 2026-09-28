@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203a32">
+  <meta name="description" content="Open the wedding invitation for Gireesh and Anjana. Join their ceremony in Kumta on 10 December 2026 and reception in Yellapur on 12 December.">
+  <title>Gireesh &amp; Anjana — Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="invitation-scene">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="scene-heading">
+      <p class="eyebrow">A celebration of love</p>
+      <h1>Gireesh <span>&amp;</span> Anjana</h1>
+      <p class="scene-date">10 · 12 December 2026 <i aria-hidden="true">✦</i> Kumta &amp; Yellapur</p>
+    </div>
+
+    <section class="envelope-stage" aria-label="Wedding invitation card">
+      <button class="envelope" id="open-invitation" type="button" aria-expanded="false" aria-controls="invitation-card">
+        <span class="envelope-paper" aria-hidden="true"></span>
+        <span class="envelope-flap" aria-hidden="true"></span>
+        <span class="envelope-seal" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M15 33c3-5 7-7 12-7s8 2 10 7M21 21a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm13 0a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path d="M24 24v4m-3 2 3-2 3 2"/></svg>
+        </span>
+        <span class="envelope-caption"><strong>Our wedding invitation</strong><small>Tap the seal to open</small></span>
+      </button>
+
+      <article class="invitation-card" id="invitation-card" aria-hidden="true" inert>
+        <button class="close-card" id="close-invitation" type="button" aria-label="Close invitation">×</button>
+        <div class="card-inner">
+          <header class="card-header">
+            <div class="mini-couple" aria-hidden="true">
+              <svg viewBox="0 0 100 76" role="presentation">
+                <path d="M16 69c2-13 10-20 22-20s20 7 22 20M59 69c2-13 10-20 22-20s20 7 22 20"/>
+                <circle cx="38" cy="28" r="13"/><circle cx="81" cy="28" r="13"/>
+                <path d="M27 17c6-11 22-10 25 4-7-4-15-5-24-2m43-1c3-8 19-9 24 1-8-2-15-1-23 4m-5-8c0-8 10-11 15-3"/>
+                <path d="M38 38c4 4 8 4 12 0m22 0c4 4 8 4 12 0"/>
+              </svg>
+            </div>
+            <p class="eyebrow">Together with our families</p>
+            <h2 class="card-title">Wedding Invitation</h2>
+            <p class="card-intro">request the pleasure of your company<br>as they begin their forever</p>
+          </header>
+
+          <figure class="portrait-frame">
+            <img src="assets/wedding-portrait.png" alt="Gireesh and Anjana in traditional Indian wedding attire, in a soft garden portrait">
+            <span class="frame-sparkle sparkle-left" aria-hidden="true">✳</span>
+            <span class="frame-sparkle sparkle-right" aria-hidden="true">✳</span>
+          </figure>
+
+          <div class="couple-names" aria-label="Gireesh and Anjana">
+            <span>Gireesh</span><i aria-hidden="true">&amp;</i><span>Anjana</span>
+          </div>
+          <p class="blessing">Your presence and blessings will make our day<br class="desktop-break"> truly special and memorable.</p>
+
+          <section class="countdown" aria-label="Countdown to the wedding ceremony">
+            <p class="eyebrow">Counting the days until we say “I do”</p>
+            <div class="countdown-numbers" id="countdown" aria-live="polite">
+              <span><b id="count-days">—</b><small>days</small></span>
+              <span><b id="count-hours">—</b><small>hours</small></span>
+              <span><b id="count-minutes">—</b><small>minutes</small></span>
+              <span><b id="count-seconds">—</b><small>seconds</small></span>
+            </div>
+          </section>
+
+          <section class="events" id="events" aria-label="Wedding events">
+            <p class="eyebrow event-heading">Please join us</p>
+            <details class="event-detail" open>
+              <summary>
+                <span class="event-icon" aria-hidden="true">❋</span>
+                <span class="event-summary"><small>Thursday · 10 December 2026</small><strong>The Wedding Ceremony</strong></span>
+                <span class="chevron" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="event-content">
+                <p class="event-time">Muhurtham <b>10:29 am</b></p>
+                <p class="venue-name">Hallaki Okkaligara<br>Samudaya Bhavana</p>
+                <p class="venue-town">Kumta</p>
+                <a class="map-button" href="https://www.google.com/maps/search/?api=1&amp;query=Hallaki+Okkaligara+Samudaya+Bhavana%2C+Kumta" target="_blank" rel="noopener noreferrer">Open map <span aria-hidden="true">↗</span></a>
+              </div>
+            </details>
+            <details class="event-detail">
+              <summary>
+                <span class="event-icon" aria-hidden="true">❋</span>
+                <span class="event-summary"><small>Saturday · 12 December 2026</small><strong>The Reception</strong></span>
+                <span class="chevron" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="event-content">
+                <p class="event-time">Celebration begins <b>11:00 am onwards</b></p>
+                <p class="venue-name">Karnika Bhavana</p>
+                <p class="venue-town">Yellapur</p>
+                <a class="map-button" href="https://www.google.com/maps/search/?api=1&amp;query=Karnika+Bhavana%2C+Yellapur" target="_blank" rel="noopener noreferrer">Open map <span aria-hidden="true">↗</span></a>
+              </div>
+            </details>
+          </section>
+
+          <section class="shared-album" aria-labelledby="album-title">
+            <div class="album-mark" aria-hidden="true">
+              <svg viewBox="0 0 64 54"><rect x="8" y="9" width="39" height="34" rx="3"/><path d="m12 37 11-11 8 7 7-8 8 9"/><circle cx="36" cy="18" r="3"/><path d="M47 18h9v29H20v-4"/><path d="M52 28v10m-5-5h10"/></svg>
+            </div>
+            <div class="album-copy">
+              <p class="eyebrow">A shared album</p>
+              <h3 id="album-title">The celebration,<br>through your eyes</h3>
+              <p>Add the little moments you capture, then browse the memories shared by everyone.</p>
+              <a class="album-button" href="https://drive.google.com/drive/folders/1w4nDb9mi1i3qP056VMdS7DUpuOKRWpVN?usp=sharing" target="_blank" rel="noopener noreferrer">View &amp; add photos <span aria-hidden="true">↗</span></a>
+              <small class="album-note">Google sign-in may be required to upload.</small>
+            </div>
+          </section>
+
+          <div class="card-actions">
+            <button class="share-button" id="share-invitation" type="button"><span aria-hidden="true">↗</span> Share invitation</button>
+            <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+          </div>
+          <footer class="card-footer">
+            <span class="footer-flourish" aria-hidden="true">❧</span>
+            <p>With love, Gireesh &amp; Anjana</p>
+            <span class="footer-flourish" aria-hidden="true">❧</span>
+          </footer>
+        </div>
+      </article>
+    </section>
+
+    <p class="scene-footer" id="scene-footer">A day made brighter with you <span aria-hidden="true">✦</span></p>
+    <div class="petal-burst" id="petal-burst" aria-hidden="true"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
