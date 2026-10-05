@@ -1,0 +1,13 @@
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+**/out/
+
+# macOS
+.DS_Store
+bin/
+
+.github
